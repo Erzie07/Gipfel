@@ -1,0 +1,36 @@
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 8rem 5% 4rem;
+    gap: 4rem;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #1e293b 0%, #2563eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero h1 .highlight {
+    color: #2563eb;
+    -webkit-text-fill-color: #2563eb;
+}
+
+.hero p {
+    font-size: 2rem;
+    color: #64748b;
+    margin-bottom: 3rem;
+    max-width: 700px;
+}
