@@ -99,6 +99,15 @@
             overflow: hidden;
         }
 
+        /* Mobile-first approach for phones */
+        @media (max-width: 768px) {
+            .hero {
+                height: auto !important;
+                min-height: 100vh;
+                overflow: visible !important;
+            }
+        }
+
         .hero-content {
             flex: 1;
             max-width: 600px;
@@ -447,23 +456,30 @@
 
             .phones-container {
                 flex-direction: column !important;
-                align-items: center;
-                gap: 30px;
-                margin-top: 2rem;
+                align-items: center !important;
+                justify-content: flex-start !important;
+                gap: 40px !important;
+                margin-top: 3rem !important;
                 display: flex !important;
-                height: auto;
-                max-height: none;
+                height: auto !important;
+                max-height: none !important;
+                overflow: visible !important;
+                flex: none !important;
             }
 
             .phone {
-                width: min(260px, 90vw);
-                height: 520px;
+                width: 280px !important;
+                height: 560px !important;
                 display: block !important;
+                position: relative !important;
+                z-index: 300 !important;
+                flex-shrink: 0 !important;
             }
 
             .footer {
                 padding: 1.5rem 4%;
                 position: relative;
+                z-index: 50 !important;
             }
 
             .footer-links {
@@ -517,18 +533,24 @@
 
             .phones-container {
                 flex-direction: column !important;
-                align-items: center;
-                height: auto;
-                gap: 35px;
-                margin-top: 2.5rem;
-                max-height: none;
+                align-items: center !important;
+                justify-content: flex-start !important;
+                height: auto !important;
+                gap: 40px !important;
+                margin-top: 3rem !important;
+                max-height: none !important;
                 display: flex !important;
+                overflow: visible !important;
+                flex: none !important;
             }
 
             .phone {
-                width: min(300px, 85vw);
-                height: 600px;
+                width: 320px !important;
+                height: 640px !important;
                 display: block !important;
+                position: relative !important;
+                z-index: 300 !important;
+                flex-shrink: 0 !important;
             }
 
             .download-buttons {
