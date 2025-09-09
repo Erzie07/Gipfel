@@ -1,4 +1,4 @@
-# Hevy Workout Tracker Landing Page
+# Gip Workout Tracker Landing Page
 
 A landing page for the Hevy workout tracker app.
 
