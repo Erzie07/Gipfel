@@ -103,8 +103,40 @@
         @media (max-width: 768px) {
             .hero {
                 height: auto !important;
-                min-height: 100vh;
+                min-height: auto !important;
+                max-height: none !important;
                 overflow: visible !important;
+                display: block !important;
+                padding-bottom: 20rem !important;
+            }
+            
+            .hero-content {
+                display: block !important;
+                width: 100% !important;
+                max-width: none !important;
+                text-align: center !important;
+                margin-bottom: 4rem !important;
+            }
+            
+            .phones-container {
+                position: relative !important;
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+                max-height: none !important;
+                overflow: visible !important;
+                margin: 0 auto !important;
+                padding: 2rem 0 !important;
+                text-align: center !important;
+            }
+            
+            .phone {
+                display: block !important;
+                position: relative !important;
+                margin: 3rem auto !important;
+                width: 280px !important;
+                height: 560px !important;
+                z-index: 999 !important;
             }
         }
 
@@ -387,6 +419,15 @@
             width: 100%;
             z-index: 100;
             border-top: 2px solid #E3E3E3;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                position: relative !important;
+                bottom: auto !important;
+                left: auto !important;
+                z-index: 1 !important;
+            }
         }
 
         .footer-links {
