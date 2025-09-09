@@ -444,14 +444,18 @@
             }
 
             .phones-container {
-                gap: 20px;
-                margin-top: 1.5rem;
+                flex-direction: column !important;
+                align-items: center;
+                gap: 30px;
+                margin-top: 2rem;
                 display: flex !important;
+                height: auto;
+                max-height: none;
             }
 
             .phone {
-                width: min(240px, 85vw);
-                height: 480px;
+                width: min(260px, 90vw);
+                height: 520px;
                 display: block !important;
             }
 
@@ -510,17 +514,18 @@
             }
 
             .phones-container {
-                flex-direction: column;
+                flex-direction: column !important;
+                align-items: center;
                 height: auto;
-                gap: 25px;
-                margin-top: 2rem;
+                gap: 35px;
+                margin-top: 2.5rem;
                 max-height: none;
                 display: flex !important;
             }
 
             .phone {
-                width: min(280px, 80vw);
-                height: 560px;
+                width: min(300px, 85vw);
+                height: 600px;
                 display: block !important;
             }
 
