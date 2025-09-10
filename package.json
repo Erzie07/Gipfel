@@ -1,0 +1,14 @@
+{
+  "name": "gipfel-landing",
+  "version": "1.0.0",
+  "description": "Landing page for Gipfel workout tracker app",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "cd public && python3 -m http.server 8000",
+    "serve": "cd public && python3 -m http.server 8000",
+    "dev": "cd public && python3 -m http.server 8000"
+  },
+  "keywords": ["gipfel", "workout", "landing-page"],
+  "author": "",
+  "license": "MIT"
+}
