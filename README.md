@@ -1,6 +1,6 @@
 # Gip Workout Tracker Landing Page
 
-A landing page for the Hevy workout tracker app.
+A landing page for the gipfel workout tracker app.
 
 ## Setup
 
